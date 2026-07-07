@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conceito Clean | Cascavel e Região</title>
+  <meta name="description" content="Limpeza residencial, comercial, pós-obra e avulsa com orçamento rápido pelo WhatsApp." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header" id="inicio">
+    <nav class="nav">
+      <a class="brand" href="#inicio" aria-label="Conceito Clean">
+        <img src="assets/logo-conceito-clean.png" alt="Conceito Clean" />
+      </a>
+      <button class="menu-btn" aria-label="Abrir menu">☰</button>
+      <div class="nav-links">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre nós</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <a class="nav-cta" href="https://wa.me/5545998514032?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20da%20Conceito%20Clean." target="_blank" rel="noopener">Orçamento</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content reveal">
+        <span class="eyebrow">Cascavel e região</span>
+        <h1>Ambientes limpos,<br><em>bem-estar garantido.</em></h1>
+        <p>Soluções em limpeza profissional e corporativa. Escritórios, comércios, condomínios, galpões, pós-obra e serviços especializados com qualidade e confiança.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#contato">Solicitar orçamento</a>
+          <a class="btn ghost" href="https://www.instagram.com/conceitoclean_?igsh=eXB6azF1M3RnODBq" target="_blank" rel="noopener">Ver Instagram</a>
+        </div>
+      </div>
+      <div class="hero-image reveal">
+        <img src="assets/hero-clean.jpg" alt="Profissional da Conceito Clean realizando limpeza em ambiente moderno" />
+      </div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="container about-grid">
+        <div class="copy reveal">
+          <span class="section-label">Sobre nós</span>
+          <h2>Mais que limpeza,<br><em>cuidamos de cada detalhe.</em></h2>
+          <p>A Conceito Clean nasceu com o propósito de transformar ambientes através da limpeza profissional e do cuidado genuíno com cada cliente. Trabalhamos com dedicação, ética e produtos de alta qualidade para entregar resultados que você vê e sente.</p>
+          <div class="features-mini">
+            <div><span>✓</span><strong>Equipe treinada<br>e qualificada</strong></div>
+            <div><span>✦</span><strong>Produtos de alta<br>qualidade</strong></div>
+            <div><span>♡</span><strong>Compromisso com<br>sua satisfação</strong></div>
+          </div>
+        </div>
+        <div class="about-card reveal">
+          <img src="assets/duas-profissionais.jpg" alt="Duas profissionais de limpeza da Conceito Clean" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="servicos">
+      <div class="container reveal">
+        <span class="section-label center">Serviços</span>
+        <h2 class="center-title">Soluções sob medida para cada ambiente</h2>
+        <div class="service-grid services-three">
+          <article class="service-card"><span class="icon">▦</span><h3>Limpeza de Condomínios</h3><p>Limpeza pesada de escadas e garagens.</p></article>
+          <article class="service-card"><span class="icon">▣</span><h3>Limpeza de Barracões em Geral</h3><p>Limpeza profissional para barracões, galpões, áreas amplas e ambientes corporativos que precisam de cuidado e organização.</p></article>
+          <article class="service-card post-obra"><span class="icon">⚒</span><h3>Limpeza Pós-Obra</h3><ul><li>Remoção de restos de cimento, rejunte e tinta</li><li>Limpeza de pisos e revestimentos</li><li>Limpeza de janelas, vidros e esquadrias</li><li>Limpeza de portas e rodapés</li><li>Remoção de poeira fina de paredes, tetos e móveis</li><li>Limpeza de banheiros e cozinhas</li><li>Limpeza de tomadas, interruptores e luminárias</li><li>Aspiração e lavagem de ambientes</li><li>Retirada de resíduos e entulhos leves</li><li>Finalização para deixar o imóvel pronto para uso</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <span class="section-label light">Fale conosco</span>
+          <h2>Solicite seu<br><em>orçamento</em></h2>
+          <p>Preencha os campos ao lado e fale com nossa equipe. A mensagem será enviada direto para o WhatsApp.</p>
+        </div>
+        <form class="quote-form reveal" id="quoteForm">
+          <input id="nome" type="text" placeholder="Nome completo" required />
+          <input id="telefone" type="tel" placeholder="Telefone / WhatsApp" required />
+          <input id="email" type="email" placeholder="E-mail" />
+          <select id="servico" required>
+            <option value="" disabled selected>Tipo de serviço</option>
+            <option>Limpeza de condomínios</option>
+            <option>Limpeza de barracões em geral</option>
+            <option>Limpeza pós-obra</option>
+            <option>Outro serviço</option>
+          </select>
+          <textarea id="mensagem" placeholder="Sua mensagem" rows="5"></textarea>
+          <button class="btn submit" type="submit">Enviar mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><strong>Atendimento</strong><span> rápido e humanizado</span></div>
+      <div><strong>Orçamento</strong><span> sem compromisso</span></div>
+      <div><strong>Pagamento</strong><span> facilitado e seguro</span></div>
+      <div><strong>Satisfação</strong><span> garantida</span></div>
+    </div>
+  </footer>
+
+  <div class="floating-buttons" aria-label="Contatos rápidos">
+    <a class="float whatsapp" href="https://wa.me/5545998514032?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20da%20Conceito%20Clean." target="_blank" rel="noopener" aria-label="WhatsApp">☏<span>WhatsApp</span></a>
+    <a class="float instagram" href="https://www.instagram.com/conceitoclean_?igsh=eXB6azF1M3RnODBq" target="_blank" rel="noopener" aria-label="Instagram">◎<span>Instagram</span></a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
