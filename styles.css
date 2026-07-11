@@ -10,3 +10,9 @@
 .service-card.post-obra{padding:38px 30px}
 .contact{background:linear-gradient(115deg,rgba(47,70,54,.96),rgba(79,111,85,.86)),linear-gradient(135deg,#536f58,#c2b596) !important}
 @media (max-width:950px){.services-three{grid-template-columns:1fr}.brand img{width:145px}}
+
+
+.float.instagram{
+background:#E1306C;
+color:#fff;
+}
