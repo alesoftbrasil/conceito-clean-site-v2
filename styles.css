@@ -16,3 +16,16 @@
 background:#E1306C;
 color:#fff;
 }
+
+/* Correções do botão Instagram e organização do rodapé */
+.instagram-icon{width:31px;height:31px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.footer-contacts{grid-column:1/-1;white-space:nowrap;padding-bottom:2px!important}
+.footer-grid{grid-template-columns:repeat(4,1fr)}
+@media (max-width:950px){
+  .footer-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-contacts{grid-column:1/-1;text-align:center}
+}
+@media (max-width:560px){
+  .footer-grid{grid-template-columns:1fr}
+  .footer-contacts{grid-column:1;font-size:12px;white-space:nowrap}
+}
